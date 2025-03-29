@@ -13,6 +13,14 @@
     "name": "Alto0327",
     "email": "aj.silvaf2003@gmail.com"
   },
+  "build": {
+  "appId": "com.example.daily-leetcode",
+  "files": [
+    "**/*",
+    "LeetcodeData.json"
+  ]
+}
+,
   "homepage": "https://github.com/Alto0327/Daily-LeetCode",
   "license": "ISC",
   "devDependencies": {
@@ -25,7 +33,8 @@
     "@electron-forge/plugin-fuses": "^7.8.0",
     "@electron-forge/publisher-github": "^7.8.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^35.1.2"
+    "electron": "^35.1.2",
+    "electron-builder": "^26.0.12"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.1"
